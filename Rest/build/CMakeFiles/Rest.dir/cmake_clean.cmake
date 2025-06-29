@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Rest.dir/src/estimate_halfway.cpp.obj.d"
   "CMakeFiles/Rest.dir/src/hittable_list.cpp.obj"
   "CMakeFiles/Rest.dir/src/hittable_list.cpp.obj.d"
+  "CMakeFiles/Rest.dir/src/integrate_x_sq.cpp.obj"
+  "CMakeFiles/Rest.dir/src/integrate_x_sq.cpp.obj.d"
   "CMakeFiles/Rest.dir/src/interval.cpp.obj"
   "CMakeFiles/Rest.dir/src/interval.cpp.obj.d"
   "CMakeFiles/Rest.dir/src/material.cpp.obj"

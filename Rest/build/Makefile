@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\cmake-4.0.0-windows-x86_64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = "D:\Program Files\cmake-4.0.0-windows-x86_64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\engine\ray_tracing\Rest
+CMAKE_SOURCE_DIR = F:\engine\ray_tracing\Rest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\engine\ray_tracing\Rest\build
+CMAKE_BINARY_DIR = F:\engine\ray_tracing\Rest\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\engine\ray_tracing\Rest\build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\cmake-4.0.0-windows-x86_64\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\cmake-4.0.0-windows-x86_64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\engine\ray_tracing\Rest\build\CMakeFiles E:\engine\ray_tracing\Rest\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\engine\ray_tracing\Rest\build\CMakeFiles F:\engine\ray_tracing\Rest\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\engine\ray_tracing\Rest\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\engine\ray_tracing\Rest\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -295,6 +295,30 @@ src/hittable_list.s: src/hittable_list.cpp.s
 src/hittable_list.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rest.dir\build.make CMakeFiles/Rest.dir/src/hittable_list.cpp.s
 .PHONY : src/hittable_list.cpp.s
+
+src/integrate_x_sq.obj: src/integrate_x_sq.cpp.obj
+.PHONY : src/integrate_x_sq.obj
+
+# target to build an object file
+src/integrate_x_sq.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rest.dir\build.make CMakeFiles/Rest.dir/src/integrate_x_sq.cpp.obj
+.PHONY : src/integrate_x_sq.cpp.obj
+
+src/integrate_x_sq.i: src/integrate_x_sq.cpp.i
+.PHONY : src/integrate_x_sq.i
+
+# target to preprocess a source file
+src/integrate_x_sq.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rest.dir\build.make CMakeFiles/Rest.dir/src/integrate_x_sq.cpp.i
+.PHONY : src/integrate_x_sq.cpp.i
+
+src/integrate_x_sq.s: src/integrate_x_sq.cpp.s
+.PHONY : src/integrate_x_sq.s
+
+# target to generate assembly for a file
+src/integrate_x_sq.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rest.dir\build.make CMakeFiles/Rest.dir/src/integrate_x_sq.cpp.s
+.PHONY : src/integrate_x_sq.cpp.s
 
 src/interval.obj: src/interval.cpp.obj
 .PHONY : src/interval.obj
@@ -590,6 +614,9 @@ help:
 	@echo ... src/hittable_list.obj
 	@echo ... src/hittable_list.i
 	@echo ... src/hittable_list.s
+	@echo ... src/integrate_x_sq.obj
+	@echo ... src/integrate_x_sq.i
+	@echo ... src/integrate_x_sq.s
 	@echo ... src/interval.obj
 	@echo ... src/interval.i
 	@echo ... src/interval.s

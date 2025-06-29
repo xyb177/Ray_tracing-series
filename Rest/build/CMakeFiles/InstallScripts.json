@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"E:/engine/ray_tracing/Rest/build/cmake_install.cmake"
+		"F:/engine/ray_tracing/Rest/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
