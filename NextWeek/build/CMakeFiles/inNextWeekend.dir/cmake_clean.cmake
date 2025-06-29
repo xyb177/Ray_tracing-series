@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/inNextWeekend.dir/src/aabb.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/aabb.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/bvh.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/bvh.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/camera.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/camera.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/color.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/color.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/constant_medium.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/constant_medium.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/hittable_list.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/hittable_list.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/interval.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/interval.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/material.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/material.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/perlin.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/perlin.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/quad.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/quad.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/ray.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/ray.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/rtw_stb_image.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/rtw_stb_image.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/sphere.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/sphere.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/test.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/test.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/texture.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/texture.cpp.obj.d"
+  "CMakeFiles/inNextWeekend.dir/src/vec3.cpp.obj"
+  "CMakeFiles/inNextWeekend.dir/src/vec3.cpp.obj.d"
+  "inNextWeekend.exe"
+  "inNextWeekend.exe.manifest"
+  "inNextWeekend.pdb"
+  "libinNextWeekend.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/inNextWeekend.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

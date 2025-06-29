@@ -1,0 +1,9 @@
+明确指定 MinGW 生成器:
+cmake -B build -G "MinGW Makefiles"
+cmake --build build
+
+运行程序
+build\inNextWeekend > image.ppm
+
+将ppm转为png
+magick image.ppm output.png

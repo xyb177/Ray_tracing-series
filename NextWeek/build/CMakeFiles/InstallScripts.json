@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/engine/ray_tracing/NextWeek/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
